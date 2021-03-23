@@ -8,7 +8,7 @@ Recently, GAN-based neural vocoders, such as Parallel WaveGAN and MelGAN have at
 ## Audio Samples (Chinese; biaobei dataset)
 
 
-Text: 花园口与将军坝：到郑州看黄河，必然先到花园口。
+Text: 花园口与将军坝：到郑州看黄河，必然先到花园<div class="text-red bg-red-light mb-2">口</div>。
 
 | ** A ** | ** B ** | ** C ** | ** D ** | **E ** |
 | :--- | :--- | :--- | :--- | :--- |
