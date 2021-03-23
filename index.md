@@ -3,9 +3,7 @@
 <center> Anonymous submission </center>
 
 ## Abstract
-This paper proposes rlsgan-vocoder.
-
-Source Codes will be released soon!  
+Recently, GAN-based neural vocoders, such as Parallel WaveGAN and MelGAN have attracted great interest due to their lightweight and parallel structures, enabling them to generate high fidelity waveform in a realtime manner. In this paper, inspired by Relativistic GAN\cite{jolicoeur2018relativistic}, we introduce a novel variant of the LSGAN framework under the context of waveform synthesis, named Pointwise Relativistic LSGAN (PRLSGAN). In the proposed framework, we take the truism score distribution into consideration and combine the original MSE loss with the proposed pointwise relative discrepancy loss to increase the difficulty of the generator to fool the discriminator, leading to improved generation quality. Moreover, PRLSGAN is a general-purposed framework that can be combined with any GAN-based neural vocoder to enhance its existing generation quality. Experiments have shown a consistent performance gain based on Parallel WaveGAN and MelGAN, demonstrating the effectiveness and strong generalization ability of PRLSGAN based neural vocoders. 
 
 ## Audio Samples (Chinese; biaobei dataset)
 
